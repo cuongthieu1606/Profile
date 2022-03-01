@@ -25,7 +25,8 @@
                 <div class="card-section is-active" id="about">
                     <div class="card-content">
                         <div class="card-subtitle">ABOUT</div>
-                        <p class="card-desc">Time will tell...</p>
+                        <p class="card-desc">Set your target and keep trying
+                            until you reach it...</p>
                     </div>
                     <div class="card-social">
                         <a href="https://www.facebook.com/cuong.thieu.1004"> <i
@@ -95,7 +96,7 @@
                                     fa-envelope-o"></i>
                                 thieutrancuongg@gmail.com
                             </div>
-                            <button class="contact-me">HELLO</button>
+                            <button class="contact-me" onclick="myFunction()">HELLO</button>
                         </div>
                     </div>
                 </div>
@@ -108,6 +109,12 @@
         </div>
         <!-- add style js -->
         <script type="text/javascript" src="js/internal.js"></script>
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+            </script>
     </body>
 
 </html>

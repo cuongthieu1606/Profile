@@ -387,3 +387,8 @@ a {
   font-family: "Jost", sans-serif;
   transition: 0.3s;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
